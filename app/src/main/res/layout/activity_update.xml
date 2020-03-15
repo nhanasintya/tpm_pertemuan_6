@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/namaUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama"/>
+
+    <EditText
+        android:id="@+id/alamatUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Alamat"/>
+
+    <EditText
+        android:id="@+id/jenkelUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="L/P "/>
+
+    <Button
+        android:id="@+id/btn_updateUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        />
+
+    <Button
+        android:id="@+id/btn_deleteUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        />
+
+</LinearLayout>
